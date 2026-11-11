@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="calculator_background">#FF000000</color>
+    <color name="number_key_background">#FF333333</color>
+    <color name="function_key_background">#FFA5A5A5</color>
+    <color name="operator_key_background">#FFFF9F0A</color>
+    <color name="operator_key_selected_background">#FFFFFFFF</color>
+    <color name="key_text_light">#FFFFFFFF</color>
+    <color name="key_text_dark">#FF000000</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FF8E8E93</color>
+    <color name="divider">#FF2C2C2E</color>
+</resources>

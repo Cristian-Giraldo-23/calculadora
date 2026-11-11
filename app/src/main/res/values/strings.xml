@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+
+    <string name="key_digit_0">0</string>
+    <string name="key_digit_1">1</string>
+    <string name="key_digit_2">2</string>
+    <string name="key_digit_3">3</string>
+    <string name="key_digit_4">4</string>
+    <string name="key_digit_5">5</string>
+    <string name="key_digit_6">6</string>
+    <string name="key_digit_7">7</string>
+    <string name="key_digit_8">8</string>
+    <string name="key_digit_9">9</string>
+    <string name="key_decimal_point">.</string>
+    <string name="key_clear">AC</string>
+    <string name="key_toggle_sign">+/−</string>
+    <string name="key_percent">%</string>
+    <string name="key_equals">=</string>
+
+    <string name="operation_add">+</string>
+    <string name="operation_subtract">−</string>
+    <string name="operation_multiply">×</string>
+    <string name="operation_divide">÷</string>
+
+    <string name="expression_pending">%1$s %2$s</string>
+    <string name="history_entry">%1$s %2$s %3$s = %4$s</string>
+
+    <string name="error_division_by_zero">No se puede dividir entre cero</string>
+    <string name="error_overflow">Resultado demasiado grande</string>
+
+    <string name="history_button">Historial</string>
+    <string name="history_title">Historial</string>
+    <string name="history_empty">Aún no hay operaciones registradas</string>
+    <string name="back_to_calculator">‹ Calculadora</string>
+</resources>
