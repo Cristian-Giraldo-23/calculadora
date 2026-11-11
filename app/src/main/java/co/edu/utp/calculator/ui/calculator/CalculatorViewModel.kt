@@ -15,7 +15,7 @@ class CalculatorViewModel(
 
     private var calculatorState = CalculatorState()
 
-    private val _uiState = MutableStateFlow(CalculatorUiState())
+    private val _uiState = MutableStateFlow(CalculatorUiState(display = calculatorState.display))
     val uiState: StateFlow<CalculatorUiState> = _uiState.asStateFlow()
 
     fun onInput(input: CalculatorInput) {

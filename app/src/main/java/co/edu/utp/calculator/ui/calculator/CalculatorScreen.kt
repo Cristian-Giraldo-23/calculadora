@@ -90,7 +90,7 @@ fun CalculatorScreen(
 private fun HistoryShortcut(onClick: () -> Unit, modifier: Modifier = Modifier) {
     TextButton(onClick = onClick, modifier = modifier) {
         Text(
-            text = stringResource(R.string.history_button),
+            text = stringResource(R.string.history_title),
             color = colorResource(R.color.operator_key_background),
         )
     }

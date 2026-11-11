@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Text
@@ -95,7 +95,7 @@ private fun HistoryList(history: List<Calculation>, modifier: Modifier = Modifie
         listState.scrollToItem(history.lastIndex)
     }
     LazyColumn(state = listState, modifier = modifier.fillMaxWidth()) {
-        itemsIndexed(history) { _, calculation ->
+        items(history) { calculation ->
             HistoryItem(calculation)
             HorizontalDivider(color = colorResource(R.color.divider))
         }

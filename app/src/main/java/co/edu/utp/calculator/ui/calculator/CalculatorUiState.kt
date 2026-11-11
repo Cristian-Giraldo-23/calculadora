@@ -5,7 +5,7 @@ import co.edu.utp.calculator.domain.model.CalculatorError
 import co.edu.utp.calculator.domain.model.CalculatorOperation
 
 data class CalculatorUiState(
-    val display: String = "0",
+    val display: String,
     val pendingLeftOperand: String? = null,
     val pendingOperation: CalculatorOperation? = null,
     val highlightedOperation: CalculatorOperation? = null,

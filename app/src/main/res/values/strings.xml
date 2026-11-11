@@ -28,7 +28,6 @@
     <string name="error_division_by_zero">No se puede dividir entre cero</string>
     <string name="error_overflow">Resultado demasiado grande</string>
 
-    <string name="history_button">Historial</string>
     <string name="history_title">Historial</string>
     <string name="history_empty">Aún no hay operaciones registradas</string>
     <string name="back_to_calculator">‹ Calculadora</string>
